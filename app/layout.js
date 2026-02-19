@@ -6,27 +6,28 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Emergency Plumber Dubai | FAM Plumbing – 24/7 Plumbing Services",
+  title:
+    "Signboard Experts – Dubai's Premier Signage Company | Custom Sign Boards & 3D Letters",
   description:
-    "FAM Plumbing Dubai: #1 emergency plumber in Dubai. 24/7 same‑day service, engineer‑led diagnostics, transparent pricing. Expert plumbing for leaks, drains, water heaters & more. Call +971 52 580 1764.",
+    "Signboard Experts: Dubai's trusted signage company. Custom 3D acrylic & stainless steel letters, LED sign boards, ACP signage, and indoor branding. Free consultation & 3D mockup. Call +971 55 228 2608.",
   keywords:
-    "plumber dubai, emergency plumber dubai, plumbing services dubai, leak detection dubai, drain cleaning dubai, blocked drain dubai, water heater repair dubai, geyser repair dubai, toilet repair dubai, tap repair dubai, bathroom plumbing dubai, kitchen plumbing dubai, pipe repair dubai, re-piping dubai, 24 hour plumber dubai, plumber near me",
-  metadataBase: new URL("https://famplumbingdubai.ae"),
+    "signboard dubai, signage company dubai, 3d letters dubai, led sign boards dubai, acrylic signage dubai, stainless steel letters dubai, acp signage dubai, office signage dubai, reception logo wall dubai, outdoor signage dubai, indoor signage dubai, wayfinding signage dubai, custom sign boards, signboard experts",
+  metadataBase: new URL("https://signboardexperts.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Emergency Plumber Dubai | FAM Plumbing – 24/7 Plumbing Services",
+    title: "Signboard Experts – Dubai's Premier Signage Company",
     description:
-      "24/7 emergency plumbing in Dubai. Engineer‑led diagnostics, same‑day service, transparent pricing. Licensed plumbers for all plumbing issues.",
-    url: "https://famplumbingdubai.ae",
-    siteName: "FAM Plumbing Dubai - Engineer-Led Plumbing Specialists",
+      "Custom signage solutions in Dubai: 3D acrylic & stainless steel letters, LED sign boards, ACP signage, indoor branding, and more. Free consultation and 3D mockup.",
+    url: "https://signboardexperts.com",
+    siteName: "Signboard Experts",
     images: [
       {
         url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "FAM Plumbing Dubai - Emergency Plumber Service in Dubai",
+        alt: "Signboard Experts – Premium Signage in Dubai",
       },
     ],
     locale: "en_AE",
@@ -58,17 +59,17 @@ export default function RootLayout({ children }) {
         <meta name="geo.placename" content="Dubai, UAE" />
         <meta name="geo.position" content="25.2048;55.2708" />
         <meta name="ICBM" content="25.2048, 55.2708" />
-        <link rel="canonical" href="https://famplumbingdubai.ae" />
+        <link rel="canonical" href="https://signboardexperts.com" />
         <meta
           name="author"
-          content="FAM Plumbing Dubai - Engineer-Led Plumbing Specialists"
+          content="Signboard Experts – Dubai's Trusted Signage Company"
         />
         <meta
           name="robots"
           content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#2563eb" />
+        <meta name="theme-color" content="#1e3a8a" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta
           name="apple-mobile-web-app-status-bar-style"
@@ -93,18 +94,18 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              name: "FAM Plumbing Dubai",
+              name: "Signboard Experts",
               description:
-                "Emergency plumbing, leak detection, drain cleaning & water heater repair in Dubai",
-              url: "https://famplumbingdubai.ae",
-              telephone: "+971525801764",
+                "Custom signage solutions in Dubai: 3D acrylic & stainless steel letters, LED sign boards, ACP signage, indoor branding, wayfinding, and approvals assistance.",
+              url: "https://signboardexperts.com",
+              telephone: "+971552282608",
               address: {
                 "@type": "PostalAddress",
                 addressLocality: "Dubai",
                 addressRegion: "Dubai",
                 addressCountry: "AE",
               },
-              openingHours: "Mo-Su 00:00-23:59",
+              openingHours: "Mo-Su 09:00-20:00",
               openingHoursSpecification: [
                 {
                   "@type": "OpeningHoursSpecification",
@@ -117,8 +118,8 @@ export default function RootLayout({ children }) {
                     "Saturday",
                     "Sunday",
                   ],
-                  opens: "00:00",
-                  closes: "23:59",
+                  opens: "09:00",
+                  closes: "20:00",
                 },
               ],
               areaServed: {
@@ -131,47 +132,48 @@ export default function RootLayout({ children }) {
                 geoRadius: 50000,
               },
               serviceType: [
-                "Emergency Plumbing",
-                "Leak Detection",
-                "Drain Cleaning",
-                "Water Heater Repair",
-                "Geyser Installation",
-                "Toilet Repair",
-                "Tap & Mixer Repair",
-                "Pipe Replacement",
-                "Bathroom Plumbing",
-                "Kitchen Plumbing",
+                "Custom Signage",
+                "3D Acrylic Letters",
+                "Stainless Steel Letters",
+                "LED Sign Boards",
+                "ACP Signage",
+                "Reception Logo Walls",
+                "Indoor Signage",
+                "Outdoor Signage",
+                "Wayfinding Signage",
+                "Glass Graphics",
+                "Signage Approvals (DED, DM, RTA)",
               ],
               priceRange: "$$",
-              image: "https://famplumbingdubai.ae/images/og-image.jpg",
+              image: "https://signboardexperts.com/images/og-image.jpg",
               aggregateRating: {
                 "@type": "AggregateRating",
                 ratingValue: "4.9",
-                reviewCount: "127",
+                reviewCount: "237",
                 bestRating: "5",
                 worstRating: "1",
               },
               sameAs: [
-                "https://www.facebook.com/famplumbingdubai",
-                "https://www.instagram.com/famplumbingdubai",
-                "https://www.linkedin.com/company/famplumbingdubai",
+                "https://www.facebook.com/signboardexperts",
+                "https://www.instagram.com/signboardexperts",
+                "https://www.linkedin.com/company/signboardexperts",
               ],
             }),
           }}
         />
 
-        {/* Structured Data - Plumbing Service (more specific) */}
+        {/* Structured Data - Service (more specific) */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Service",
-              serviceType: "Plumbing",
+              serviceType: "Custom Signage Fabrication & Installation",
               provider: {
                 "@type": "LocalBusiness",
-                name: "FAM Plumbing Dubai",
-                telephone: "+971525801764",
+                name: "Signboard Experts",
+                telephone: "+971552282608",
                 address: {
                   "@type": "PostalAddress",
                   addressLocality: "Dubai",
@@ -180,7 +182,7 @@ export default function RootLayout({ children }) {
                 areaServed: "Dubai, UAE",
               },
               description:
-                "24/7 emergency plumbing, leak detection, drain cleaning, water heater repair, and comprehensive plumbing solutions.",
+                "Design, fabrication, and installation of custom indoor and outdoor signage including 3D acrylic letters, stainless steel letters, LED sign boards, ACP signs, and reception logo walls. Full assistance with DED, Dubai Municipality, RTA, and Civil Defense approvals.",
             }),
           }}
         />
@@ -195,66 +197,66 @@ export default function RootLayout({ children }) {
               mainEntity: [
                 {
                   "@type": "Question",
-                  name: "How much does plumbing service in Dubai typically cost?",
+                  name: "How much does custom signage cost in Dubai?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Our pricing is transparent: AED 99 for the first hour diagnostic visit (deducted from repair cost). Repairs like tap replacement start from AED 150, toilet repairs from AED 250, drain cleaning from AED 300, and water heater repairs from AED 350. We provide a fixed-price quote after diagnosis—no hidden fees.",
+                    text: "Costs vary based on material, size, and complexity. Acrylic sign boards start from AED 150-300 for small nameplates; 3D acrylic letters from AED 250-1,500 per letter depending on height and illumination; stainless steel letters from AED 400-2,200+ per letter; lightbox signs from AED 1,500-8,000 per sqm. We provide transparent, detailed quotes with no hidden fees.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "How quickly can you get a plumber to my location in Dubai?",
+                  name: "What approvals are needed for signage in Dubai?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "For emergencies, we aim to arrive within 45 minutes. Standard service requests are scheduled same-day or next-day at your convenience. We cover all Dubai communities including Marina, JLT, Palm, Arabian Ranches, Downtown, Business Bay, Deira, and more.",
+                    text: "Outdoor signage requires approvals from Dubai Municipality, and if roadside, RTA approval. Illuminated signs also need Dubai Civil Defense approval. Businesses in free zones require additional approvals from their respective authority. Signboard Experts handles all approvals on your behalf.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Are your plumbers licensed and insured?",
+                  name: "How long does the signage fabrication and installation take?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Absolutely. All our plumbers are licensed by Dubai Municipality and fully insured. We also comply with SABER product safety regulations. Your property is protected.",
+                    text: "Typical timeline: design and approvals 2-4 weeks, fabrication 2-4 weeks, installation 1-5 days. Total project time 6-12 weeks depending on complexity and approvals.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Do you guarantee your plumbing repairs?",
+                  name: "Do you offer a warranty on your signage?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Yes, we stand behind our work with a comprehensive warranty on both parts and labor. The duration depends on the repair type, but we always provide peace of mind.",
+                    text: "Yes, we provide a comprehensive warranty on both materials and workmanship. LED components typically carry a 2-5 year warranty, and structural signage is guaranteed for years against defects.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "What causes low water pressure in my apartment?",
+                  name: "Which material is best for outdoor signage in Dubai's climate?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Low pressure can be caused by a partially closed main valve, a faulty pressure reducing valve (PRV), scale buildup in aerators, or hidden leaks. Our technicians use pressure gauges to diagnose the exact cause and fix it systematically.",
+                    text: "Stainless steel (Grade 316L for coastal areas) offers the best durability (20+ years). Premium UV-stabilized acrylic is suitable for 5-10 years. ACP with PVDF coating provides excellent weather resistance for large-format signs.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Do you offer commercial plumbing services?",
+                  name: "Can you match my brand colors exactly?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Yes, we provide tailored plumbing maintenance contracts for offices, restaurants, retail stores, and commercial buildings. Contact us for a custom quote.",
+                    text: "Absolutely. We use Pantone matching and digital color verification to ensure your brand colors are reproduced accurately on acrylic, painted metal, or digitally printed substrates.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "How can I prevent blocked drains in my home?",
+                  name: "Do you offer design services?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Regular maintenance helps: avoid pouring grease down sinks, use drain strainers to catch hair, and flush drains with hot water weekly. We also offer professional drain cleaning and CCTV inspections to keep your drains clear.",
+                    text: "Yes, our in-house design team creates 3D mockups and detailed design drawings as part of our quotation process. We work with you to refine concepts until you're completely satisfied.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Do you repair all brands of water heaters?",
+                  name: "What areas of Dubai do you serve?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "We repair all major brands including Ariston, Rheem, Super General, Bosch, and local UAE brands. Our technicians are certified to work on both tankless and storage-type geysers.",
+                    text: "We serve all of Dubai including DIFC, Dubai Marina, JLT, Downtown, Business Bay, Deira, Bur Dubai, Al Barsha, Jumeirah, Palm Jumeirah, Arabian Ranches, Dubai Hills, JVC, Motor City, and all other communities.",
                   },
                 },
               ],
